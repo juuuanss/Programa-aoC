@@ -37,13 +37,13 @@ scanf("PONTOS TURISTICOS: %d", PONTOSTURISTICOS);
 
 printf("CARTA 01\n");
 
-printf(:%s \n");
-print("");
-
-
-
-
-
+printf("Estado: %s \n", ESTADO);
+print("Codigo: %s \n", CODIGO);
+printf("Cidade: %s \n", CIDADE);
+printf("População: %d \n", POPULACAO);
+printf("Área ( EM KM²): %f\n", AREA);
+printf("PIB( Produto Interno Bruto): %f\n", PIB);
+printf("Pontos turisticos: %d\n", PONTOSTURISTICOS);
 
 
 
