@@ -68,7 +68,7 @@ printf("PIB: \n");
 scanf(" %f", &Pib);
 
 printf("Numero da pontos turisticos: \n");
-scanf("%f", &Pontos);
+scanf("%d", &Pontos);
 
 
 
