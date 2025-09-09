@@ -37,7 +37,7 @@ scanf("%d", &Pontos);
 printf("CARTA 01 \n");
 printf("Estado: %s \n", Estado);
 printf("Código: %s \n", Codigo);
-printf("Nome da cidade: %S \n", Cidade);
+printf("Nome da cidade: %c \n", Cidade);
 printf("População: %d \n",Populaçao);
 printf("Área ( Em Km²): %f \n", Area);
 printf("PIB: %f \n", Pib);
