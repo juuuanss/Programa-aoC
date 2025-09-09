@@ -1,7 +1,6 @@
 #include<stdio.h>
 int main(){
  
-    printf("INICIO DO SUPER TRUNFO EM C");
 
     char ESTADO[50];
     char CODIGO[10];
@@ -15,25 +14,25 @@ printf("BEM VINDO AO JOGO \n");
 
 
 printf("ESTADO( Uma letra entre A a H)\n ");
-scanf("Estado: %s", ESTADO);
+scanf(" %s", ESTADO);
 
 printf("CODIGO (Letra do Estado seguida de  um numeri de 01 a 04)\n");
-scanf("CODIGO:%s", CODIGO);
+scanf("%s", CODIGO);
 
 printf("CIDADE:\n");
-scanf("CIDADE:%s", CIDADE);
+scanf("%s", CIDADE);
 
 printf("POPULAÇAO: \n");
-scanf("POPULAÇAO: %d", POPULACAO);
+scanf(" %d", &POPULACAO);
 
 printf("ÁREA( Em KM²)\n");
-scanf("AREA(Em KM²): %f", AREA);
+scanf("%f", &AREA);
 
 printf("PIB: /n");
-scanf("PIB: %f", PIB );
+scanf("%f", &PIB );
 
 printf("PONTOS TURISTICOS:\n");
-scanf("PONTOS TURISTICOS: %d", PONTOSTURISTICOS);
+scanf("%d", &PONTOSTURISTICOS);
 
 printf("CARTA 01\n");
 
