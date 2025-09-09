@@ -1,53 +1,99 @@
 #include<stdio.h>
 int main(){
- 
-
-    char ESTADO[50];
-    char CODIGO[10];
-    char CIDADE[50];
-    int POPULACAO;
-    float AREA;
-    float PIB;
-    int PONTOSTURISTICOS;
+    //--VARIAVEIS DO JOGO--
+    char Estado[50];
+    char Codigo[10];
+    char Cidade[50];
+    int Populaçao;
+    float Area;
+    float Pib;
+    int Pontos;
 
 printf("BEM VINDO AO JOGO \n");
+    //-- INICIO DO CODIGO--
+printf("CARTA 01 \n");
+
+printf("Estado(Uma Letra entre 'A' e 'H'): \n");
+scanf("%s", Estado);
+
+printf("Codigo( letra do estado seguida de um número de 01 a 04): \n");
+scanf("%s", Codigo );
+
+printf("Nome da Cidade: \n");
+scanf("%s", Cidade);
+
+printf("População: \n");
+scanf("%d", &Populaçao);
+
+printf("Área: \n");
+scanf("%f", &Area);
+
+printf("PIB: \n");
+scanf("%f", &Pib);
+
+printf("Numero de Pontos turisticos: \n");
+scanf("%d", &Pontos);
+
+printf("CARTA 01 \n");
+printf("Estado: %s \n", Estado);
+printf("Código: %s \n", Codigo);
+printf("Nome da cidade: %S \n", Cidade);
+printf("População: %d \n",Populaçao);
+printf("Área ( Em Km²): %f \n", Area);
+printf("PIB: %f \n", Pib);
+printf("Numero de pontos turisticos: %d \n", Pontos);
 
 
-printf("ESTADO( Uma letra entre A a H)\n ");
-scanf(" %s", ESTADO);
+//----------------------------------------------------------------/
 
-printf("CODIGO (Letra do Estado seguida de  um numeri de 01 a 04)\n");
-scanf("%s", CODIGO);
 
-printf("CIDADE:\n");
-scanf("%s", CIDADE);
+printf("CARTA 02 \n");
 
-printf("POPULAÇAO: \n");
-scanf(" %d", &POPULACAO);
+printf("Estado (Uma letra entre 'A' e 'H'):\n");
+scanf(" %s", Estado);
 
-printf("ÁREA( Em KM²)\n");
-scanf("%f", &AREA);
+printf("Codigo:\n");
+scanf(" %s", Codigo);
 
-printf("PIB: /n");
-scanf("%f", &PIB );
+printf("Nome da Cidade: \n");
+scanf(" %s", Cidade);
 
-printf("PONTOS TURISTICOS:\n");
-scanf("%d", &PONTOSTURISTICOS);
+printf("População: \n");
+scanf(" %d", &Populaçao);
 
-printf("CARTA 01\n");
+printf("Área: \n");
+scanf("%f", &Area);
 
-printf("Estado: %s \n", ESTADO);
-print("Codigo: %s \n", CODIGO);
-printf("Cidade: %s \n", CIDADE);
-printf("População: %d \n", POPULACAO);
-printf("Área ( EM KM²): %f\n", AREA);
-printf("PIB( Produto Interno Bruto): %f\n", PIB);
-printf("Pontos turisticos: %d\n", PONTOSTURISTICOS);
+printf("PIB: \n");
+scanf(" %f", &Pib);
+
+printf("Numero da pontos turisticos: \n");
+scanf("%f", &Pontos);
 
 
 
 
 
+printf("CARTA 2 \n");
+printf("Estado: %s \n", Estado);
+printf("Código: %s \n", Codigo);
+printf("Nome da cidade: %S \n", Cidade);
+printf("População: %d \n",Populaçao);
+printf("Área( Em Km²): %f \n", Area);
+printf("PIB: %f \n", Pib);
+printf("Numero de pontos turisticos: %d \n", Pontos);
 
 
-}
+
+
+
+
+
+
+
+return 0;
+
+
+
+
+} 
